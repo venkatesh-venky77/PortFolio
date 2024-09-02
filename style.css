@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(green,white,aqua);
+    width: 100vw;
+    
+    
+}
+header{
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 20px;
+    /* background-color: antiquewhite; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.content{
+    /* width: 89vw; */
+    margin: 0px auto;
+    padding: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid;
+    border-style: groove;
+
+}
+.content .left img{
+    width: 400px;
+    height: ;
+    border-radius: 50px;
+    border: solid ;
+    border-style: groove;
+    box-shadow: 1px 1px 10px 5px;
+}
+.right{
+    border-radius: 20px;
+    border: solid 2px;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    border-style: double;
+    color: black;
+    border-color: green;
+    
+}
+.hello{
+    color: brown;
+}
+.about{
+    /* background-color: blueviolet; */
+    display: flex;
+    /* width: 94vw; */
+    margin: auto;
+    padding-left: 150px;
+    /* text-align: center; */
+    border: solid 2px;
+}
+.data{
+    /* text-align: center; */
+    text-align: justify;
+   
+}
+.button{
+    margin: ;
+    text-align: end;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+button{
+    padding-left: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.personal{
+    text-align: center;
+    
+}
+footer{
+    /* width: 200px; */
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
